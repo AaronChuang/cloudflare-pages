@@ -1,0 +1,90 @@
+/* 基本樣式重設與設定 */
+body {
+    font-family: 'Helvetica Neue', Arial, 'PingFang TC', 'Microsoft JhengHei', sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background-color: #3498db; /* 藍色 */
+    color: #fff;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+h1 {
+    margin-bottom: 0.5rem;
+}
+
+main {
+    max-width: 800px;
+    margin: 20px auto; /* 上下 20px，左右自動 (居中) */
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+section {
+    margin-bottom: 2rem;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid #eee;
+}
+
+section:last-child {
+    border-bottom: none;
+    margin-bottom: 0;
+}
+
+h2 {
+    color: #2980b9; /* 深藍色 */
+    margin-bottom: 1rem;
+}
+
+/* 圖片樣式 */
+.image-section img {
+    max-width: 100%; /* 圖片寬度不超過容器 */
+    height: auto;    /* 高度自動縮放 */
+    display: block;  /* 避免圖片下方有多餘空間 */
+    margin: 1rem auto; /* 上下 1rem，左右自動 (居中) */
+    border-radius: 5px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.2);
+}
+
+/* 按鈕樣式 */
+button {
+    background-color: #2ecc71; /* 綠色 */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #27ae60; /* 深綠色 */
+}
+
+/* 訊息區域樣式 */
+#messageArea {
+    margin-top: 1rem;
+    padding: 10px;
+    background-color: #ecf0f1; /* 淺灰色 */
+    border-radius: 5px;
+    min-height: 20px; /* 避免沒內容時塌陷 */
+    color: #555;
+}
+
+footer {
+    text-align: center;
+    margin-top: 2rem;
+    padding: 1rem;
+    font-size: 0.9em;
+    color: #777;
+    border-top: 1px solid #eee;
+}

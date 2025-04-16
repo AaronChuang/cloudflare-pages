@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>簡單靜態網站範例</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <h1>歡迎來到我的網站</h1>
+        <p>這是一個用於 Cloudflare Pages 部署測試的簡單範例。</p>
+    </header>
+
+    <main>
+        <section class="content-section">
+            <h2>關於本頁</h2>
+            <p>這個頁面包含了 HTML、CSS 和 JavaScript。</p>
+            <p>樣式由外部 `style.css` 控制，互動效果由外部 `script.js` 提供。</p>
+        </section>
+
+        <section class="image-section">
+            <h2>範例圖片</h2>
+            <img src="images/example.jpeg" alt="範例圖片風景">
+            <img src="images/example2.jpeg" alt="範例圖片風景2">
+            <img src="images/example3.jpeg" alt="範例圖片風景3">
+            <p>上方的圖片存放在 `images 資料夾內。</p>
+        </section>
+
+        <section class="interactive-section">
+            <h2>互動測試</h2>
+            <p>點擊下方的按鈕！</p>
+            <button id="myButton">點我！</button>
+            <div id="messageArea"></div>
+        </section>
+    </main>
+
+    <footer>
+        <p>頁面生成時間：<span id="generationTime"></span></p>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
